@@ -1,5 +1,6 @@
 # Etapa 1: build (usando Maven)
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+FROM eclipse-temurin:17-jdk
+
 WORKDIR /app
 
 # Copia arquivos do projeto
